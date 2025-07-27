@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+#Titulo {
+  text-align: center;
+}
+
+/* Centralizar botões */
+.botoes-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.botao1, .botao2 {
+  display: inline-block;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.botao1 {
+  background-color: #4285F4;
+}
+
+.botao1:hover {
+  background-color: #3367D6;
+}
+
+.botao2 {
+  background-color: #EA4335;
+}
+
+.botao2:hover {
+  background-color: #c62828;
+}
+
+
+/* Centralizar imagens */
+.imagens-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.imagens-container img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
